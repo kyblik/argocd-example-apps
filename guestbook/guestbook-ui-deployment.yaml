@@ -2,7 +2,6 @@ apiVersion: apps/v1beta2
 kind: Deployment
 metadata:
   name: guestbook-ui
-  deployment: argocd
 spec:
   replicas: 1
   revisionHistoryLimit: 3
